@@ -1,7 +1,8 @@
-from specie import Specie
-from birds_data_manager import BirdDataManager
-from image import Image
-from image_uploader import ImageUploader
+from src.specie import Specie
+from src.birds_data_manager import BirdDataManager
+from src.image import Image
+from src.image_uploader import ImageUploader
+from src.repository.birds_of_the_world_images_table import BirdsOfTheWorldImagesTable
 
 class BirdsOfTheWorld:
     def __init__(self):
@@ -27,8 +28,8 @@ class BirdsOfTheWorld:
                 local_file_path = f"images/{ e['nm_arquivo']}"
                 uploader.upload_image(local_file_path)
 
-            
-
+        table = BirdsOfTheWorldImagesTable()
+        table.load_json_into_bq(bird_data_manager.filename)
 
 if __name__ == "__main__":
     botw = BirdsOfTheWorld()
