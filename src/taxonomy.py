@@ -38,7 +38,7 @@ class Taxonomy:
         return requisicoes_taxonomy
 
 if __name__ == "__main__":
-    filename = "/var/www/birdbase/birds_of_the_world/birdsoftheworld.org.har"
+    filename = "/var/www/elt-birds-of-the-world/birdsoftheworld.org.har"
     taxonomy = Taxonomy(filename)
     taxonomy_list = taxonomy.get_taxonomy_list()
 

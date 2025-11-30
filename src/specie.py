@@ -2,15 +2,9 @@
 import requests
 
 class Specie:
-    URL = "https://birdsoftheworld.org/bow/api/v1/taxonomy"
-    PARAMS = {
-        "depth": 2,
-        "rootTaxonCode": "monarc2",
-        "locale": "en"
-    }
 
-    def _get_response_json(self):
-        response = requests.get(self.URL, params=self.PARAMS)
+    def _get_response_json(self, url):
+        response = requests.get(url)
         response.raise_for_status()
 
         return response.json()
@@ -27,9 +21,9 @@ class Specie:
         for item in sub:
             self._extract_species(item, result_list)
 
-    def get_species(self):
+    def get_species(self, url):
         species = []
-        data = self._get_response_json()
+        data = self._get_response_json(url)
         self._extract_species(data, species)
         species = self._parse_species(species)
         return species
@@ -43,7 +37,7 @@ class Specie:
                 "nm_arquivo": sci.lower().replace(" ", "_") + ".jpg",
                 "id_imagem": asset,
                 "ds_imagem_url": f"https://cdn.download.ams.birds.cornell.edu/api/v1/asset/{asset}/160",
-                "nm_gcp_path": f"gs://birdbase_birds_of_the_world/{sci.lower().replace(' ', '_')}.jpg"
+                "nm_gcp_path": f"https://storage.cloud.google.com/birdbase_birds_of_the_world/{sci.lower().replace(' ', '_')}.jpg"
             })
         return species
 

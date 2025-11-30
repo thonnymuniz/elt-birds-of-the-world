@@ -628,5 +628,143 @@
         "ds_imagem_url": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/153472821/160",
         "nm_arquivo": "myiagra_eichhorni.jpg",
         "nm_gcp_path": "https://storage.cloud.google.com/birdbase_birds_of_the_world/myiagra_eichhorni.jpg"
+    },
+    {
+        "nm_cientifico": "Ptilopachus petrosus",
+        "ds_imagem_url": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/151458861/160",
+        "nm_arquivo": "ptilopachus_petrosus.jpg",
+        "nm_gcp_path": "https://storage.cloud.google.com/birdbase_birds_of_the_world/ptilopachus_petrosus.jpg"
+    },
+    {
+        "nm_cientifico": "Ptilopachus nahani",
+        "ds_imagem_url": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/151458891/160",
+        "nm_arquivo": "ptilopachus_nahani.jpg",
+        "nm_gcp_path": "https://storage.cloud.google.com/birdbase_birds_of_the_world/ptilopachus_nahani.jpg"
+    },
+    {
+        "nm_cientifico": "Rhynchortyx cinctus",
+        "ds_imagem_url": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/151459741/160",
+        "nm_arquivo": "rhynchortyx_cinctus.jpg",
+        "nm_gcp_path": "https://storage.cloud.google.com/birdbase_birds_of_the_world/rhynchortyx_cinctus.jpg"
+    },
+    {
+        "nm_cientifico": "Oreortyx pictus",
+        "ds_imagem_url": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/151458911/160",
+        "nm_arquivo": "oreortyx_pictus.jpg",
+        "nm_gcp_path": "https://storage.cloud.google.com/birdbase_birds_of_the_world/oreortyx_pictus.jpg"
+    },
+    {
+        "nm_cientifico": "Dendrortyx leucophrys",
+        "ds_imagem_url": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/151459361/160",
+        "nm_arquivo": "dendrortyx_leucophrys.jpg",
+        "nm_gcp_path": "https://storage.cloud.google.com/birdbase_birds_of_the_world/dendrortyx_leucophrys.jpg"
+    },
+    {
+        "nm_cientifico": "Dendrortyx macroura",
+        "ds_imagem_url": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/151459311/160",
+        "nm_arquivo": "dendrortyx_macroura.jpg",
+        "nm_gcp_path": "https://storage.cloud.google.com/birdbase_birds_of_the_world/dendrortyx_macroura.jpg"
+    },
+    {
+        "nm_cientifico": "Dendrortyx barbatus",
+        "ds_imagem_url": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/151459291/160",
+        "nm_arquivo": "dendrortyx_barbatus.jpg",
+        "nm_gcp_path": "https://storage.cloud.google.com/birdbase_birds_of_the_world/dendrortyx_barbatus.jpg"
+    },
+    {
+        "nm_cientifico": "Philortyx fasciatus",
+        "ds_imagem_url": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/151458901/160",
+        "nm_arquivo": "philortyx_fasciatus.jpg",
+        "nm_gcp_path": "https://storage.cloud.google.com/birdbase_birds_of_the_world/philortyx_fasciatus.jpg"
+    },
+    {
+        "nm_cientifico": "Colinus virginianus",
+        "ds_imagem_url": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/151459041/160",
+        "nm_arquivo": "colinus_virginianus.jpg",
+        "nm_gcp_path": "https://storage.cloud.google.com/birdbase_birds_of_the_world/colinus_virginianus.jpg"
+    },
+    {
+        "nm_cientifico": "Colinus nigrogularis",
+        "ds_imagem_url": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/151459061/160",
+        "nm_arquivo": "colinus_nigrogularis.jpg",
+        "nm_gcp_path": "https://storage.cloud.google.com/birdbase_birds_of_the_world/colinus_nigrogularis.jpg"
+    },
+    {
+        "nm_cientifico": "Colinus leucopogon",
+        "ds_imagem_url": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/151459111/160",
+        "nm_arquivo": "colinus_leucopogon.jpg",
+        "nm_gcp_path": "https://storage.cloud.google.com/birdbase_birds_of_the_world/colinus_leucopogon.jpg"
+    },
+    {
+        "nm_cientifico": "Colinus cristatus",
+        "ds_imagem_url": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/151459141/160",
+        "nm_arquivo": "colinus_cristatus.jpg",
+        "nm_gcp_path": "https://storage.cloud.google.com/birdbase_birds_of_the_world/colinus_cristatus.jpg"
+    },
+    {
+        "nm_cientifico": "Callipepla squamata",
+        "ds_imagem_url": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/151459161/160",
+        "nm_arquivo": "callipepla_squamata.jpg",
+        "nm_gcp_path": "https://storage.cloud.google.com/birdbase_birds_of_the_world/callipepla_squamata.jpg"
+    },
+    {
+        "nm_cientifico": "Callipepla douglasii",
+        "ds_imagem_url": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/151459221/160",
+        "nm_arquivo": "callipepla_douglasii.jpg",
+        "nm_gcp_path": "https://storage.cloud.google.com/birdbase_birds_of_the_world/callipepla_douglasii.jpg"
+    },
+    {
+        "nm_cientifico": "Callipepla californica",
+        "ds_imagem_url": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/151459281/160",
+        "nm_arquivo": "callipepla_californica.jpg",
+        "nm_gcp_path": "https://storage.cloud.google.com/birdbase_birds_of_the_world/callipepla_californica.jpg"
+    },
+    {
+        "nm_cientifico": "Callipepla gambelii",
+        "ds_imagem_url": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/151459251/160",
+        "nm_arquivo": "callipepla_gambelii.jpg",
+        "nm_gcp_path": "https://storage.cloud.google.com/birdbase_birds_of_the_world/callipepla_gambelii.jpg"
+    },
+    {
+        "nm_cientifico": "Cyrtonyx montezumae",
+        "ds_imagem_url": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/151459791/160",
+        "nm_arquivo": "cyrtonyx_montezumae.jpg",
+        "nm_gcp_path": "https://storage.cloud.google.com/birdbase_birds_of_the_world/cyrtonyx_montezumae.jpg"
+    },
+    {
+        "nm_cientifico": "Cyrtonyx ocellatus",
+        "ds_imagem_url": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/151459821/160",
+        "nm_arquivo": "cyrtonyx_ocellatus.jpg",
+        "nm_gcp_path": "https://storage.cloud.google.com/birdbase_birds_of_the_world/cyrtonyx_ocellatus.jpg"
+    },
+    {
+        "nm_cientifico": "Dactylortyx thoracicus",
+        "ds_imagem_url": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/151459761/160",
+        "nm_arquivo": "dactylortyx_thoracicus.jpg",
+        "nm_gcp_path": "https://storage.cloud.google.com/birdbase_birds_of_the_world/dactylortyx_thoracicus.jpg"
+    },
+    {
+        "nm_cientifico": "Odontophorus gujanensis",
+        "ds_imagem_url": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/151459391/160",
+        "nm_arquivo": "odontophorus_gujanensis.jpg",
+        "nm_gcp_path": "https://storage.cloud.google.com/birdbase_birds_of_the_world/odontophorus_gujanensis.jpg"
+    },
+    {
+        "nm_cientifico": "Odontophorus capueira",
+        "ds_imagem_url": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/151459401/160",
+        "nm_arquivo": "odontophorus_capueira.jpg",
+        "nm_gcp_path": "https://storage.cloud.google.com/birdbase_birds_of_the_world/odontophorus_capueira.jpg"
+    },
+    {
+        "nm_cientifico": "Odontophorus melanotis",
+        "ds_imagem_url": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/151459411/160",
+        "nm_arquivo": "odontophorus_melanotis.jpg",
+        "nm_gcp_path": "https://storage.cloud.google.com/birdbase_birds_of_the_world/odontophorus_melanotis.jpg"
+    },
+    {
+        "nm_cientifico": "Odontophorus atrifrons",
+        "ds_imagem_url": "https://cdn.download.ams.birds.cornell.edu/api/v1/asset/151459461/160",
+        "nm_arquivo": "odontophorus_atrifrons.jpg",
+        "nm_gcp_path": "https://storage.cloud.google.com/birdbase_birds_of_the_world/odontophorus_atrifrons.jpg"
     }
 ]

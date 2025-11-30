@@ -3,14 +3,26 @@ from src.birds_data_manager import BirdDataManager
 from src.image import Image
 from src.image_uploader import ImageUploader
 from src.repository.birds_of_the_world_images_table import BirdsOfTheWorldImagesTable
+from src.taxonomy import Taxonomy
 
 class BirdsOfTheWorld:
     def __init__(self):
         pass
 
     def run(self):
-        species = Specie().get_species()
-        self.process_images(species)
+        specie = Specie()
+        taxonomy_list = self.get_taxonomy_list()
+
+        for url in taxonomy_list:
+            print(f"URL: {specie}")
+            species = specie.get_species(url)
+            self.process_images(species)
+
+    def get_taxonomy_list(self):
+        filename = "/var/www/elt-birds-of-the-world/birdsoftheworld.org.har"
+        taxonomy = Taxonomy(filename)
+        taxonomy_list = taxonomy.get_taxonomy_list()
+        return taxonomy_list
 
     def process_images(self, species):
         bird_data_manager = BirdDataManager()
