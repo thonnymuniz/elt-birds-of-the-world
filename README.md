@@ -41,3 +41,6 @@ Você irá precisar fazer o download da [google-cloud-sdk](https://cloud.google.
 ```sh
 gcloud auth application-default login
 ```
+
+# Taxonomia URL
+[https://birdsoftheworld.org/bow/api/v1/taxonomy?depth=2&categoriesForCounts=species&showIucnStatusCounts=true&locale=en](https://birdsoftheworld.org/bow/api/v1/taxonomy?depth=2&categoriesForCounts=species&showIucnStatusCounts=true&locale=en)
