@@ -1,5 +1,8 @@
 # ELT Birds of the World
 
+🔗 Repositório principal:
+https://github.com/seu-usuario/mba-bird-conservation-data-platform
+
 Os objetivos deste projeto são:
 - Extração das imagens das aves e carregamento na GCP(Storage e BigQuery)
 
